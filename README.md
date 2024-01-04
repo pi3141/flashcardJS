@@ -5,7 +5,8 @@ simple space repetition webapp
 * simple question format :
 ```
 packet_name|question1;answer1
-packet_name|question1;answer1
+packet_name|question2;answer2
+_
 ```
 * question and answer can contain html.
 
