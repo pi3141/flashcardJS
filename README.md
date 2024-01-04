@@ -3,8 +3,10 @@ simple space repetition webapp
 
 * no dependencies
 * simple question format :
-  * packet_name|question1;answer1
-  * packet_name|question1;answer1
+```
+packet_name|question1;answer1
+packet_name|question1;answer1
+```
 * question and answer can contain html.
 
 Screenshot :
