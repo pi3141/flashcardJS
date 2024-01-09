@@ -2,7 +2,7 @@
 simple space repetition webapp
 
 * no dependencies
-* simple question format :
+* all questions in a simple card.js file containing :
 ```
 packet_name|question1;answer1
 packet_name|question2;answer2
