@@ -1,11 +1,11 @@
-# FlashcardJS
+# FlashcardJS − Une application de répétition espacée ultra-simple.
 
 *Read this in [english](README.en.md)*
 
-Une application de répétition espacée ultra-simple.
+Caractéristiques :
 
-* aucune dépendance, pas besoin de serveur, de compte, ni d'installation, il suffit d'ouvrir le fichie index.html dans un navigateur.
-* un algorithme simple défini la date à laquelle une question doit être posée.
+* aucune dépendance ni installation ni serveur ni compte nécessaire. Il suffit d'ouvrir le fichie index.html dans un navigateur ;
+* sur le principe des flashcards, un algorithme simple défini la date à laquelle une question doit être posée ;
 * toutes les données utilisateurs sont chez l'utilisateur (dans le localstorage du navigateur).
 * les cartes sont stockées dans un fichier cards.js avec un format simple :
 ```
