@@ -1,8 +1,14 @@
 # FlashcardJS
-simple space repetition webapp
 
-* no dependencies
-* all questions in a simple card.js file containing :
+*Read this in other languages: français*
+
+A simple spaced repetition webapp.
+
+
+* no dependencies, no server needed, simply open index.html in a browser.
+* a simple retention algorithm choose questions to study.
+* user data stored in localstorage (RGPD compliant)
+* all questions stored in a simple card.js file containing :
 ```
 packet_name|question1;answer1
 packet_name|question2;answer2
