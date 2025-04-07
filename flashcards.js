@@ -141,9 +141,12 @@ var trueAnswer = 0;
       var farr = arr.filter((a) => { if (/\S/.test(a)) { return a; } });
       for (let i = 0; i < farr.length; i++) {
         questObj = {};
-        questObj.paquet = farr[i].split(";")[0].split('|')[0];
-        questObj.question = farr[i].split(";")[0].split('|')[1];
-        questObj.reponse = farr[i].split(";")[1];
+        questObj.paquet = farr[i].split("|")[0];
+        questObj.question = farr[i].split("|")[1];
+        questObj.reponse = farr[i].split("|")[2];
+        //questObj.paquet = farr[i].split(";")[0].split('|')[0];
+        //questObj.question = farr[i].split(";")[0].split('|')[1];
+        //questObj.reponse = farr[i].split(";")[1];
         questObj.hash = hash_code(questObj.question + questObj.reponse);
         if (!flashCardsData.flashCards.some(el => el.hash == questObj.hash)) {
           flashCardsData.flashCards.push(questObj);
