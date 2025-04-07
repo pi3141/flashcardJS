@@ -150,6 +150,10 @@ color: #444;
       display: none;
     }
 
+    .side1 img {
+      max-width: 100%;
+    }
+
     .flipped #card .side2 {
       display: block;
     }
